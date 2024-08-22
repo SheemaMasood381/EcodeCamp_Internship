@@ -51,17 +51,22 @@ The third task is yet to be decided. It will likely involve another challenging 
 To run the projects locally, follow these steps:
 
 1. Clone the repository:
+
         git clone https://github.com/SheemaMasood381/EcodeCamp_Internship.git
 2. Navigate to the project directory:
+   
         cd EcodeCamp_Internships
 3.  Install the required dependencies:
+   
         pip install -r Task 3/requirements.txt
 
 ### Usage
-    To run the Flask app for the Titanic Survival Prediction:
+To run the Flask app for the Titanic Survival Prediction:
+
         cd Task 3
         python app.py
-    Access the app at http://127.0.0.1:5000/.
+        
+Access the app at http://127.0.0.1:5000/.
 
 ### Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or suggestions.
