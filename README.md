@@ -1,4 +1,4 @@
-# Ecodecamp Internship Projects
+# EcodeCamp Internship Projects
 This repository contains the projects completed during my internship at Ecodecamp. The internship consists of three tasks that focus on applying data science and machine learning techniques to various datasets.
 
 
