@@ -50,11 +50,11 @@ The third task is yet to be decided. It will likely involve another challenging 
 # Installation
 To run the projects locally, follow these steps:
 
-    1. Clone the repository:
+1. Clone the repository:
         git clone https://github.com/SheemaMasood381/EcodeCamp_Internship.git
-    2. Navigate to the project directory:
+2. Navigate to the project directory:
         cd EcodeCamp_Internships
-    3.  Install the required dependencies:
+3.  Install the required dependencies:
         pip install -r Task 3/requirements.txt
 
 ### Usage
