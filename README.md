@@ -67,8 +67,8 @@ To run the projects locally, follow these steps:
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or suggestions.
 
 ### Acknowledgments
-      I would like to express my sincere gratitude to Ecodecamp for providing this valuable internship opportunity. The hands-on experience and guidance received during the internship have been instrumental in enhancing my skills and understanding of data science and machine learning. Special thanks to the mentors and the entire team at Ecodecamp for their support and encouragement throughout this journey.
-    Additionally, I appreciate the use of GitHub as a platform for version control and collaboration, which has greatly facilitated the development and sharing of these projects.
+I would like to express my sincere gratitude to Ecodecamp for providing this valuable internship opportunity. The hands-on experience and guidance received during the internship have been instrumental in enhancing my skills and understanding of data science and machine learning. Special thanks to the mentors and the entire team at Ecodecamp for their support and encouragement throughout this journey.
+Additionally, I appreciate the use of GitHub as a platform for version control and collaboration, which has greatly facilitated the development and sharing of these projects.
 
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
