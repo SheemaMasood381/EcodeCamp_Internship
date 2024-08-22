@@ -21,10 +21,10 @@ This repository showcases my work during the internship at Ecodecamp. The tasks 
 In this task, I built a predictive model to determine the likelihood of survival for passengers on the Titanic. The project involved data collection, preprocessing, exploratory data analysis, and model building using different machine learning algorithms.
 
 ### Key Features
-    1. Exploratory Data Analysis (EDA): Visualization of survival distributions based on different features like gender, class, and age.
-    2. Model Building: Implementation of various machine learning models, including Logistic Regression, Decision Tree, Random Forest, SVM, and k-NN.
-    3. Model Evaluation: Confusion matrices and accuracy scores were used to evaluate model performance.
-    4. Deployment: The final model was deployed using Flask, allowing predictions based on user input.
+1. Exploratory Data Analysis (EDA): Visualization of survival distributions based on different features like gender, class, and age.
+2. Model Building: Implementation of various machine learning models, including Logistic Regression, Decision Tree, Random Forest, SVM, and k-NN.
+3. Model Evaluation: Confusion matrices and accuracy scores were used to evaluate model performance.
+4. Deployment: The final model was deployed using Flask, allowing predictions based on user input.
     
 ### Files
 Task 3/: Contains all relevant files, including Jupyter notebooks, model files, and Flask app files.
@@ -34,10 +34,10 @@ Task 3/: Contains all relevant files, including Jupyter notebooks, model files, 
 The second task will involve building a predictive model for customer churn using Telco customer data. This project will focus on identifying factors that influence customer churn and developing a model to predict churn.
 
 ### Key Features (Planned)
-    1. Data Preprocessing: Handling missing values, encoding categorical variables, and feature scaling.
-    2. Exploratory Data Analysis (EDA): Identifying key factors contributing to customer churn.
-    3. Model Building: Implementation of various machine learning models to predict customer churn.
-    4. Model Evaluation: Performance evaluation using accuracy, precision, recall, and F1-score.
+1. Data Preprocessing: Handling missing values, encoding categorical variables, and feature scaling.
+2. Exploratory Data Analysis (EDA): Identifying key factors contributing to customer churn.
+3.Model Building: Implementation of various machine learning models to predict customer churn.
+4. Model Evaluation: Performance evaluation using accuracy, precision, recall, and F1-score.
 
 ### Files
 Coming soon.
