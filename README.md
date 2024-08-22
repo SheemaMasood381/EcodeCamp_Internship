@@ -1,4 +1,19 @@
-# Project Overview
+# Ecodecamp Internship Projects
+This repository contains the projects completed during my internship at Ecodecamp. The internship consists of three tasks that focus on applying data science and machine learning techniques to various datasets.
+
+
+### Table of Contents
+    1. Project Overview
+    2. Task 1: Titanic Survival Prediction
+    3. Task 2: Customer Churn Prediction (Telco Data)
+    4. Task 3: To Be Decided
+    5. Installation
+    6. Usage
+    7. Contributing
+    8. License
+
+
+## Project Overview
 This repository showcases my work during the internship at Ecodecamp. The tasks involve various aspects of data science, including data preprocessing, exploratory data analysis (EDA), model building, and deployment. The goal is to develop and deploy machine learning models that provide valuable insights and predictions based on the given datasets.
 
 ## Task 1: Titanic Survival Prediction
