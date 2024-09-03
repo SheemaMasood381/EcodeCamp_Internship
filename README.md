@@ -1,116 +1,82 @@
-# EcodeCamp Internship Projects
+# Internship Projects at eCodeCamp (Pvt.) Ltd
 
-This repository contains the projects completed during my internship at Ecodecamp. The internship consists of three tasks that focus on applying data science and machine learning techniques to various datasets.
+Welcome to my GitHub repository! This repository showcases the projects I completed during my internship at eCodeCamp (Pvt.) Ltd. Each project represents a significant milestone in my journey through data science, machine learning, and web development.
 
 ## Table of Contents
 
-1. [Project Overview](#project-overview)
-2. [Task 1: Titanic Survival Prediction](#task-1-titanic-survival-prediction)
-3. [Task 2: Customer Churn Prediction (Telco Data)](#task-2-customer-churn-prediction-telco-data)
-4. [Task 3: To Be Decided](#task-3-to-be-decided)
-5. [Installation](#installation)
-6. [Usage](#usage)
-7. [Contributing](#contributing)
-8. [License](#license)
+- [Project 1: Customer Churn Analysis](#project-1-customer-churn-analysis)
+- [Project 2: Titanic Survival Prediction](#project-2-titanic-survival-prediction)
+- [Project 3: Image Classification with CNNs](#project-3-image-classification-with-cnns)
 
-## Project Overview
+---
 
-This repository showcases my work during the internship at Ecodecamp. The tasks involve various aspects of data science, including data preprocessing, exploratory data analysis (EDA), model building, and deployment. The goal is to develop and deploy machine learning models that provide valuable insights and predictions based on the given datasets.
-
-## Task 1: Titanic Survival Prediction
+## 🚀 Project 1: Customer Churn Analysis
 
 ### Overview
-
-In this task, I built a predictive model to determine the likelihood of survival for passengers on the Titanic. The project involved data collection, preprocessing, exploratory data analysis, and model building using different machine learning algorithms.
+In this project, I conducted an **Exploratory Data Analysis (EDA)** on a customer churn dataset. The primary objective was to identify patterns and trends that could help businesses understand the factors leading to customer churn and improve their retention strategies.
 
 ### Key Features
+- **Data Exploration**: Extracted meaningful insights regarding customer behavior.
+- **Data Visualization**: Created comprehensive visualizations like histograms and scatter plots to effectively communicate findings.
+- **Business Insights**: Provided actionable insights that can influence customer retention strategies.
 
-- **Exploratory Data Analysis (EDA):** Visualization of survival distributions based on different features like gender, class, and age.
-- **Model Building:** Implementation of various machine learning models, including Logistic Regression, Decision Tree, Random Forest, SVM, and k-NN.
-- **Model Evaluation:** Confusion matrices and accuracy scores were used to evaluate model performance.
-- **Deployment:** The final model was deployed using Flask, allowing predictions based on user input.
+### Technologies Used
+- **Python**
+- **Pandas**
+- **Matplotlib & Seaborn**
 
-### Files
+### Project Files
+You can find the project files in the [Customer Churn Analysis](./Customer-Churn-Analysis) directory.
 
-- **[Task 1/](Task%201/):** Contains all relevant files, including Jupyter notebooks, model files, and Flask app files.
+---
 
-## Task 2: Customer Churn Prediction (Telco Data)
+## 🚀 Project 2: Titanic Survival Prediction
 
 ### Overview
-
-For this task, I conducted an exploratory data analysis (EDA) on a customer churn dataset to identify patterns and insights. The focus was on understanding factors contributing to customer churn and generating a comprehensive report of findings.
+This project involved developing a **Titanic Survival Prediction Web Application** that predicts the likelihood of a passenger’s survival on the Titanic based on various input features.
 
 ### Key Features
+- **Interactive User Interface**: Users can interact with the app via an age slider, passenger class selection, gender dropdown, and port of embarkation dropdown.
+- **Machine Learning Model**: Implemented a `RandomForestClassifier` that achieved 85% accuracy and an 89% F1 score.
+- **Web Deployment**: Deployed using Flask, offering real-time predictions and smooth user interactions.
 
-- **Data Preprocessing:** Handling missing values, encoding categorical variables, and feature scaling.
-- **Exploratory Data Analysis (EDA):** Identification of key factors contributing to customer churn through visualizations and statistical analyses.
-- **Report:** Creation of a comprehensive report detailing findings and insights from the analysis.
+### Technologies Used
+- **Python**
+- **Scikit-learn**
+- **Flask**
+- **HTML/CSS**
 
-### Files
+### Project Files
+You can find the project files in the [Titanic Survival Prediction](./Titanic-Survival-Prediction) directory.
 
-- **[Task 2/](Task%202/):** Contains all relevant files, including Jupyter notebooks and the comprehensive report of findings and insights. The report can be found [here](Task%202/Churn_Analysis_Report.pdf) (replace with actual file name and path).
+---
 
-## Task 3: To Be Decided
+## 🚀 Project 3: Image Classification with CNNs
 
 ### Overview
+In my final internship project, I developed an **interactive Image Classification System** using **Convolutional Neural Networks (CNNs)**. The model is capable of classifying images with high accuracy and is accessible through a user-friendly web interface.
 
-The third task is yet to be decided. It will likely involve another challenging dataset where advanced machine learning techniques can be applied.
+### Key Features
+- **Advanced CNN Architecture**: Designed a robust CNN model with multiple layers, batch normalization, dropout, and advanced regularization techniques.
+- **High Accuracy**: Achieved 92% accuracy on test images and 87% on unseen images.
+- **User-Friendly Web Interface**: Users can upload images and receive instant classification results through an intuitive and visually appealing interface.
 
-### Files
+### Technologies Used
+- **Python**
+- **TensorFlow/Keras**
+- **Flask**
+- **HTML/CSS**
 
-- **[Task 3/](Task%203/):** Contains all relevant files, including Jupyter notebooks and any other resources related to the task.
+### Project Files
+You can find the project files in the [Image Classification with CNNs](./Image-Classification-CNN) directory.
 
-## Installation
-
-To run the projects locally, follow these steps:
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/SheemaMasood381/EcodeCamp_Internship.git
-    ```
-
-2. Navigate to the project directory:
-
-    ```bash
-    cd EcodeCamp_Internship
-    ```
-
-3. Install the required dependencies:
-
-    ```bash
-    pip install -r Task%203/requirements.txt
-    ```
-
-## Usage
-
-To run the Flask app for the Titanic Survival Prediction:
-
-1. Navigate to the Task 1 directory:
-
-    ```bash
-    cd Task%201
-    ```
-
-2. Start the Flask app:
-
-    ```bash
-    python app.py
-    ```
-
-3. Access the app at [http://127.0.0.1:5000/](http://127.0.0.1:5000/).
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or suggestions.
+---
 
 ## Acknowledgments
 
-I would like to express my sincere gratitude to Ecodecamp for providing this valuable internship opportunity. The hands-on experience and guidance received during the internship have been instrumental in enhancing my skills and understanding of data science and machine learning. Special thanks to the mentors and the entire team at Ecodecamp for their support and encouragement throughout this journey. 
+ Special thanks to eCodeCamp (Pvt.) Ltd for the opportunity to work on these impactful projects.
 
-Additionally, I appreciate the use of GitHub as a platform for version control and collaboration, which has greatly facilitated the development and sharing of these projects. The GitHub community and its tools have been invaluable in managing and showcasing my work.
+## Connect with Me
 
+Feel free to explore the projects and share your thoughts. Your feedback is greatly appreciated! If you’d like to connect or discuss the projects further, please reach out via [LinkedIn](https://www.linkedin.com/).
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
