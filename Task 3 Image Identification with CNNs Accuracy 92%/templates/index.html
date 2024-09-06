@@ -10,6 +10,9 @@
             background-color: #f4f4f9;
             margin: 0;
             padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
         }
         header {
             background: #333;
@@ -23,6 +26,7 @@
             margin: auto;
             overflow: hidden;
             padding: 20px;
+            flex: 1;
         }
         .upload-form {
             margin: 20px 0;
@@ -84,9 +88,6 @@
             padding: 10px;
             text-align: center;
             border-top: 5px solid #444;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
         }
     </style>
 </head>
@@ -97,11 +98,11 @@
     <div class="container">
         <div class="upload-form">
             <h2>Welcome to the Image Classification App</h2>
-            <p>Please upload one or more images to get predictions.</p>
+            <p>Please upload one or more images to get identification results.</p>
             <form action="/predict" method="post" enctype="multipart/form-data">
                 <input type="file" name="images" multiple>
                 <br>
-                <button type="submit">Predict</button>
+                <button type="submit">Identify</button>
             </form>
         </div>
         {% if results %}
@@ -110,7 +111,7 @@
             <div class="result">
                 {% if filepath %}
                 <img src="{{ url_for('static', filename='uploads/' + filepath) }}" alt="Uploaded Image">
-                <h3>Predicted Class: {{ class_name }}</h3>
+                <h3>Identified Class: {{ class_name }}</h3>
                 {% else %}
                 <p>{{ class_name }}</p>
                 {% endif %}
