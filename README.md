@@ -78,5 +78,5 @@ You can find the project files in the [Image Classification with CNNs](./Image-C
 
 ## Connect with Me
 
-Feel free to explore the projects and share your thoughts. Your feedback is greatly appreciated! If you’d like to connect or discuss the projects further, please reach out via [LinkedIn](https://www.linkedin.com/).
+Feel free to explore the projects and share your thoughts. Your feedback is greatly appreciated! If you’d like to connect or discuss the projects further, please reach out via [LinkedIn](https://www.linkedin.com/in/sheema-masood/).
 
